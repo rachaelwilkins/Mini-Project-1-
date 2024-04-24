@@ -1,0 +1,20 @@
+LO-FI sketch: https://www.figma.com/file/nmGRhd5yz4zLR7ZGeNhSTJ/Mini-Project-1-Lo-Fi?type=design&node-id=0%3A1&mode=design&t=bi5019QqFD5dsNhG-1
+
+HI-FI sketch: 
+
+
+USER REQUIREMENTS - PROJECT CHARBY (WEBSITE NAME TBC):
+
+The purpose of this document is to define the requirements for the development of a Cat Breed preference/match applications. The working name for this Project is Project Charby.
+
+Project Charby will allow users to answer a series of simple questions and provide detailed information and imagery about potential cat breeds to suit their lifestyles, without having to spend countless hours Googling and researching themselves.  
+
+Pet ownership spiked around the world through the worst of the Covid-19 pandemic, and more and more people are choosing to own pets. An animal in the home can spark joy in uncertain and stressful times, and research shows that pet ownership can result in better heart health, less stress, a healthy routine, companionship. 
+
+Finally, with the current NZ Government announcing that a “pet bond” will be a viable option for both Landlords and Tenants, the expectation is that more households will look to take up pet ownership.
+
+Project Charby will include the following features:
+-	A “Cat Library’ which displays over 60 different breeds of cats, including an image, brief overview of their breed, and a link to find out more information.
+-	User-friendly interface with navigation, responsive design, and clean styling
+-   Use of multiple programming languages and tools, e.g. HTML, CSS, JavaScript, BootStrap and integration with API Data
+-	Pages with additional information such as ‘About Us’, ‘Contact Us’, and a Shop. 
