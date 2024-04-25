@@ -15,6 +15,7 @@ function getCards() {
                             <div class="card-body">
                                 <h5 class="card-title">${products[i].name}</h5>
                                 <p class="card-text">${products[i].description}</p>
+                                <p class="card-text">Known for being ${products[i].temperament}.</p>
                             </div>
                         </div>
                     </div>
