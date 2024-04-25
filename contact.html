@@ -27,7 +27,7 @@
         font-size: 20px;
         padding: 15px;
         border: thin; 
-        margin-left: 25%;
+        margin-left: 30%;
         font-weight: bold;
     }
     
@@ -46,18 +46,22 @@
 <body>
     <h1>Contact Us</h1>
     <p>We would love to hear from you - fill out the form, and we will get back to you as soon as we can!</p>   
-    <form>        
-    </form><div class="form">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname">  
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname">    
-        <label for="lname">Email</label>
-        <input type="text" id="email" name="lastname">
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" style="height:200px"></textarea>   
-      </form>
-    </div>  
+    <div class="container">
+        <form action="/Mini-Project-1-contact.html">
+      
+          <label for="fname">
+          <input type="text" id="fname" name="firstname" placeholder="Your first name">
+      
+          <label for="lname">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name">
+      
+          <label for="email">
+          <input type="text" id="email" name="email" placeholder="Your email address">
+      
+          <label for="subject">
+          <textarea id="subject" name="subject" placeholder="What's on your mind?" style="height:200px"></textarea>
+      
+        </form>
     <button onclick="myFunction()">Submit</button>
     </div>
     <script>
