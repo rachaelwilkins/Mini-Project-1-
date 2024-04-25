@@ -26,7 +26,7 @@
 </div>
 <style>
     body {
-        background-image: url(/images/Cat\ Paw.png);
+        background-image: url(/images/cat\ tail\ 2.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
@@ -52,21 +52,14 @@
 <body>
     <h1>Cat Breed Library</h1>
     <h4>Read up on over 60 different breeds, and discover which could be purr-fect for you and your household.</h4>
-    <form class="search-form">
-        <input type="text" placeholder="Search our library here" class="search-input">
+
+        <input type="text" placeholder="Search our library here" class="search-input" id="search">
         <button onclick="searchCats()" class="search-button">Search</button><br>
-      </form>
 
     <section class="container">
         <div id="cards" class="row row-cols-3 row-cols-md-3 g-3">
         </div>
     </section>
-
-    <div id="card-container"></div>
-
-    <div class="card-actions">
-        <button id="load-more">Load More</button>
-    </div>
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
