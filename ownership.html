@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="/images/icons8-cat-16.png">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.1/dist/echarts.min.js"></script>
 <style>
     body {
         background-image: url(/images/cat\ lie\ 2.png);
@@ -18,7 +19,7 @@
         font-size: larger;
         margin-left: 100px;
         margin-right: 425px;
-        text-align: left;
+        text-align: center;
     }
 </style>    
 </head>
@@ -34,7 +35,37 @@
 </div>
 <body>
 <h1>Cat Ownership in Aotearoa</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non gravida orci, sit amet molestie erat. Maecenas porttitor aliquet nisl sollicitudin mattis. Sed ut urna sed lorem tincidunt sodales. Vestibulum aliquam vehicula dui, vitae fermentum nisl dictum ac. Ut pharetra magna quis erat facilisis, a vulputate tortor tempor. Pellentesque ullamcorper arcu non mollis consectetur. Integer congue venenatis porttitor. Pellentesque hendrerit turpis at quam efficitur, vel posuere metus venenatis. Vivamus finibus sollicitudin mauris eu suscipit. Aenean ullamcorper elit nibh, a tempus tellus eleifend at. Vivamus vel sapien libero. Mauris non pretium elit. Duis mattis id turpis et euismod. Nunc scelerisque a odio et maximus.
+<p>Did you know 64% of Kiwi households own at least one pet, just a smidge behind the USA (65%)?
+   Collectively, New Zealanders own 4.6 million pets - that's more pets than people!<br><br>
+   Cats are the most popular pets – 44% of New Zealand homes have one, for a total of 1.1 million pet cats.<br><br>
+   Why do we love our pets so much? Maybe it’s because we have a relaxed pace of life and a good work-life balance, giving us time to enjoy our furry friends. Perhaps it’s having plenty of room to keep animals in most parts of the country. Maybe it’s because they fit into our active outdoor lifestyles. Whatever the reason, our love of pets seems to be getting stronger.</p>
 
+   <div id="graph" style="width: 900px; height: 600px"></div>
+   <script type="text/javascript">
+     let options = {
+       title: { text: "Cat Ownership in New Zealand",},
+       xAxis: {
+         data: ["2019", "2020", "2021", "2022", "2023"] 
+       },
+       yAxis: {},
+       series: [
+         {
+           name: "Ownership %",
+           type: "line",
+           data: [30, 33, 38, 40, 41],
+         },
+       ],
+     };
+     fetch("https://fakestoreapi.com/products")
+       .then((response) => response.json())
+       .then((json) => {
+         console.log(json);
+       })
+       .then(() => {
+         myChart.setOption(options);
+       });
+     let myChart = echarts.init(document.getElementById("graph"));
+
+   </script>
 </body>
 </html>    

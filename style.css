@@ -109,7 +109,7 @@ button {
     align-items: center;
   }  
 
-  input[type=text], select, textarea {
+input[type=text], select, textarea {
     width: 50%; 
     margin-left: 30%;
     padding: 12px; 
@@ -121,3 +121,8 @@ button {
     resize: vertical; 
     font-weight: bold;
   }
+
+#graph {
+    margin-left: 20%;
+    font-display: ;
+}
