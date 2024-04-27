@@ -21,6 +21,7 @@
         margin-right: 425px;
         text-align: left;
     }
+
 </style>    
 </head>
 <div class="topnav">
@@ -35,21 +36,51 @@
 </div>
 <body>
 <h1>Cat Ownership in Aotearoa</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi velit. In tempus urna non dictum suscipit. Donec ullamcorper neque id orci cursus, et fermentum purus tristique. Aliquam venenatis nec risus nec facilisis. In eu dui convallis, laoreet enim vel, posuere felis. Cras mattis auctor turpis, vel porta dolor lacinia vel.</p><br>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi velit. In tempus urna non dictum suscipit. Donec ullamcorper neque id orci cursus, et fermentum purus tristique. Aliquam venenatis nec risus nec facilisis. In eu dui convallis, laoreet enim vel, posuere felis. Cras mattis auctor turpis, vel porta dolor lacinia vel.</p>
+
+<table>
+  <caption>Cat Ownership by % in New Zealand YOY</caption>
+  <tr>
+    <th>Year</th>
+    <th>Household %</th>
+  </tr>
+  <tr>
+    <td>2019</td>
+    <td>30.2%</td>
+  </tr>
+  <tr>
+    <td>2020</td>
+    <td>35.6%</td>
+  </tr>
+  <tr>
+    <td>2021</td>
+    <td>37.8%</td>
+  </tr>
+  <tr>
+    <td>2022</td>
+    <td>40.8%</td>
+  </tr>
+  <tr>
+    <td>2023</td>
+    <td>43.1%</td>
+  </tr>
+</table><br>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi velit. In tempus urna non dictum suscipit. Donec ullamcorper neque id orci cursus, et fermentum purus tristique. Aliquam venenatis nec risus nec facilisis. In eu dui convallis, laoreet enim vel, posuere felis. Cras mattis auctor turpis, vel porta dolor lacinia vel.</p><br><br>
 
    <div id="graph" style="width: 900px; height: 600px"></div>
    <script type="text/javascript">
      let options = {
-       title: { text: "Cat Ownership in New Zealand",},
+       title: { text: "Household Pet Expenditure YOY - NZD"},
        xAxis: {
          data: ["2019", "2020", "2021", "2022", "2023"] 
        },
        yAxis: {},
        series: [
          {
-           name: "Ownership %",
+           name: "Expenditure",
            type: "line",
-           data: [30, 33, 38, 40, 41],
+           data: [1777, 2048, 2163, 2247, 2456],
          },
        ],
      };

@@ -123,5 +123,23 @@ input[type=text], select, textarea {
   }
 
 #graph {
-    margin-left: 10%;
+    margin-left: 20%;
 }
+
+tr:nth-child(even) {
+    background-color: lightgray;
+  }
+
+tr, th {
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+  }
+
+table {
+    margin-left: 30%;
+}
+
+caption {
+    font-size: 25px;
+  }
