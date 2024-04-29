@@ -29,8 +29,8 @@ function searchCats() {
                     <a href="./pages/details.html?id=${products[i].reference_image_id}"><img src="https://cdn2.thecatapi.com/images/${products[i].reference_image_id}.jpg" class="card-img-top imgCards" height="300"></a>
                         <div class="card-body">
                             <h5 class="card-title">${products[i].name}</h5>
-                            <p class="card-text">${products[i].description}</p>
-                            <p class="card-text">Known for being: ${products[i].temperament}.</p>
+                            
+                            <p class="card-text">Known for being: ${products[i].temperament}.</p><p class="card-text">${products[i].description}</p>
                         </div>
                     </div>
                 </div>
